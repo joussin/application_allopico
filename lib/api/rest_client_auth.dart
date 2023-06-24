@@ -10,9 +10,7 @@ import 'rest_client_auth.dart';
 import 'user.dart';
 import 'token.dart';
 
-
 class RestClientAuth extends RestClient {
-
 
   Future<Token> awaitGetToken() async {
 
@@ -29,9 +27,6 @@ class RestClientAuth extends RestClient {
 
       return token;
   }
-
- 
-
 
   Future<Token> register(String name, String email, String password, String phone) async {
 
